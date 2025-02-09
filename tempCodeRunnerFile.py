@@ -1,0 +1,1 @@
+k = int(input("Enter number of clusters (K): "))
