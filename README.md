@@ -40,3 +40,9 @@ This report outlines a detailed implementation of K-Means clustering in Python w
 - Bishop, C. M. (2006). Pattern Recognition and Machine Learning.
 - Data Science and Machine Learning resources (online documentation and tutorials).
 ## THe Resulted clusters are plotted in the following graph
+![Original Data plots](/assets/original.png)
+
+## Final cluster
+![Cluster Visualization](/assets/final_cluster.png)
+
+
