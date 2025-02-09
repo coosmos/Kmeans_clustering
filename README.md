@@ -33,12 +33,12 @@ The dataset used contains two-dimensional data points (x1, x2) stored in a CSV f
 The implemented algorithm successfully groups data points into K clusters, dynamically adjusting based on user input. The iterative process ensures the best separation of data points. The output visualization confirms correct clustering by differentiating clusters with colors and marking centroids distinctly. The convergence criterion ensures efficiency, stopping iterations when no further changes occur in centroids.
 
 ## 4. Conclusion
-This report outlines a detailed implementation of K-Means clustering in Python while avoiding prebuilt clustering functions. The approach provides a deep understanding of clustering mechanics by manually computing distances, cluster assignments, and centroid updates. Future work can extend this implementation to higher-dimensional data and optimize initialization methods for better efficiency.
+The implementation of K-Means Clustering successfully grouped the given dataset into K = 3 clusters. After multiple iterations, the centroid values converged to the following positions:
 
-## 5. References
-- MacQueen, J. (1967). Some methods for classification and analysis of multivariate observations.
-- Bishop, C. M. (2006). Pattern Recognition and Machine Learning.
-- Data Science and Machine Learning resources (online documentation and tutorials).
+Final Centroids for K = 3:
+[(29.330863636363635, 10.432409090909092), (6.322866666666667, 19.5598), (29.304956521739133, 39.050782608695656)]
+
+Through iterative updates, we observed that the algorithm efficiently reassigned data points to the nearest centroid, leading to a stable cluster formation.
 ## THe Resulted clusters are plotted in the following graph
 ![Original Data plots](/assets/original.png)
 
